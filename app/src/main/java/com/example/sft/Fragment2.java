@@ -30,6 +30,7 @@ public class Fragment2 extends Fragment {
     LinearLayoutManager layoutManager =
         new LinearLayoutManager(getContext(), RecyclerView.VERTICAL, false);
     //(위 코드) 3번째 파라미터 false는 뷰가 정방향임을 의미. true는 역방향.
+
     recyclerView.setLayoutManager(layoutManager);
 
     adapter = new Adapter();

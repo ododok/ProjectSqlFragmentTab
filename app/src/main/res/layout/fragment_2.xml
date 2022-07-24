@@ -4,6 +4,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:layout_margin="5dp"
   android:orientation="vertical"
   tools:context=".Fragment2">
 
@@ -11,6 +12,9 @@
   <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recyclerView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:scrollbars="vertical" />
 
 </LinearLayout>

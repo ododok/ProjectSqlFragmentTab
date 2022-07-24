@@ -11,10 +11,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+      android:orientation="vertical">
 
       <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -54,7 +54,7 @@
 
       </FrameLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
 
   </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
